@@ -1,0 +1,50 @@
+.login {
+  background-image: url("../../images/login-wallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+
+  .login-main {
+    height: 100vh;
+    display: flex  ;
+    justify-content: center;
+    align-items: center;
+
+    .login-form{
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 60px;
+      padding: 60px 100px;
+      box-shadow: 2px 3px 4px  lightgrey;
+
+      .input-wrapper {
+        margin-bottom: 20px;
+        input {
+          width: 300px;
+        }
+        .username{
+          margin-bottom: 20px;
+        }
+
+        .helper-errors {
+          color: #df1c1c;
+        }
+      }
+
+      .btn-wrapper {
+        button {
+          margin-right: 20px;
+        }
+
+        .clear-btn {
+          background: #E9C69C;
+        }
+      }
+    }
+  }
+}
+
