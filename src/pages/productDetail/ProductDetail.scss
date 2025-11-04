@@ -1,0 +1,42 @@
+.detail-container{
+  margin: 25px;
+
+  .detail-content{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    .basket-content{
+      .count-content{
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        user-select: none;
+
+        .count-icons {
+          cursor: pointer;
+        }
+      }
+
+      .basket-buttons {
+        display: flex;
+        gap: 20px;
+
+        .add-basket-btn{
+          display: flex;
+          gap: 10px;
+          background: #7e3333;
+        }
+
+        .go-to-basket-btn {
+          display: flex;
+          gap: 10px;
+          background: #3d5e1c;
+        }
+      }
+
+    }
+  }
+}
