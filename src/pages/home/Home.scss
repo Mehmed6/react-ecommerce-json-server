@@ -1,0 +1,14 @@
+.home-page {
+
+  display: flex;
+  margin-top: 10px;
+
+  .home-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cat{
+    max-width: 150px;
+  }
+}
