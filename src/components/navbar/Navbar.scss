@@ -1,0 +1,36 @@
+.nav-menu {
+  background: #8e7249;
+
+  .nav-logo {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+  }
+  .nav-logo-text {
+    cursor: pointer;
+  }
+  .nav-search-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+
+    .search-icon {
+      font-size: 25px;
+      margin-right: 8px;
+      margin-top: 8px;
+      cursor: pointer;
+    }
+
+    .logout-btn{
+      background: #6e2929;
+      margin-left: 10px;
+    }
+
+    .basket-icon {
+      cursor: pointer;
+      font-size: 25px;
+      color: lightgrey;
+    }
+  }
+}
